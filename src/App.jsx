@@ -10,7 +10,6 @@ function App() {
 
   const passGen = useCallback(() => {
     let pass = ""
-    //let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     let str = "abcdefghijklmnopqrstuvwxyz"
     if (numAllow) str += "1234567890"
     if (charAllow) str += "!@#$%^&*(){}[]|/?><"
